@@ -4,7 +4,7 @@
 
 #include "Cube.h"
 
-Cube::Cube(const Vec3D &pos, Cube::Type t) : RigidBody(ObjectNameTag("cube")), type(t){
+Cube::Cube(const ObjectNameTag& name, const Vec3D &pos, Cube::Type t) : RigidBody(ObjectNameTag(name)), type(t){
     // TODO: implement (lesson 1)
 }
 

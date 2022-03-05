@@ -26,7 +26,7 @@ public:
 private:
     Type type;
 public:
-    explicit Cube(const Vec3D& pos, Type t);
+    explicit Cube(const ObjectNameTag& name, const Vec3D& pos, Type t);
 
     static sf::Color cubeColor(Type t);
 };
