@@ -21,6 +21,8 @@ public:
     [[nodiscard]] Cube::Type selectedBlock() const { return _selectedBlock; }
     void nextBlock();
     void previousBlock();
+
+    void collisionCallBack(const CollisionInfo& info) override;
 };
 
 
