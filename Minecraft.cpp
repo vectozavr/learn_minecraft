@@ -3,7 +3,7 @@
 //
 
 #include "Minecraft.h"
-#include "engine/ResourceManager.h"
+#include "engine/utils/ResourceManager.h"
 
 using namespace std;
 

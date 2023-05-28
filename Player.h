@@ -8,7 +8,7 @@
 #include <SFML/Audio/Sound.hpp>
 #include <utility>
 #include "engine/physics/RigidBody.h"
-#include "engine/ResourceManager.h"
+#include "engine/utils/ResourceManager.h"
 #include "Cube.h"
 #include "MinecraftConsts.h"
 
