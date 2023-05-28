@@ -5,7 +5,7 @@
 #include "PlayerController.h"
 #include "engine/utils/Log.h"
 #include "engine/animation/Animations.h"
-#include "engine/SoundController.h"
+#include "engine/io/SoundController.h"
 
 PlayerController::PlayerController(std::shared_ptr<Player> player,
                                    std::shared_ptr<Keyboard> keyboard,
