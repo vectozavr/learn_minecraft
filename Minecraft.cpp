@@ -2,8 +2,9 @@
 // Created by Иван Ильин on 03.10.2021.
 //
 
+#include <utils/ResourceManager.h>
+
 #include "Minecraft.h"
-#include "engine/utils/ResourceManager.h"
 
 using namespace std;
 

@@ -5,10 +5,11 @@
 #ifndef MINECRAFT_3DZAVR_PLAYER_H
 #define MINECRAFT_3DZAVR_PLAYER_H
 
-#include <SFML/Audio/Sound.hpp>
 #include <utility>
-#include "engine/physics/RigidBody.h"
-#include "engine/utils/ResourceManager.h"
+#include <SFML/Audio/Sound.hpp>
+#include <utils/ResourceManager.h>
+#include <physics/RigidBody.h>
+
 #include "Cube.h"
 #include "MinecraftConsts.h"
 

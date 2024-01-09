@@ -5,10 +5,11 @@
 #ifndef MINECRAFT_3DZAVR_MAP_H
 #define MINECRAFT_3DZAVR_MAP_H
 
-#include "engine/World.h"
-#include "Cube.h"
 #include <utility>
 #include <vector>
+#include <World.h>
+
+#include "Cube.h"
 
 class Map {
 private:

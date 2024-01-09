@@ -2,10 +2,11 @@
 // Created by Иван Ильин on 19.09.2021.
 //
 
+#include <animation/Animations.h>
+#include <io/SoundController.h>
+#include <utils/Log.h>
+
 #include "PlayerController.h"
-#include "engine/utils/Log.h"
-#include "engine/animation/Animations.h"
-#include "engine/io/SoundController.h"
 
 PlayerController::PlayerController(std::shared_ptr<Player> player,
                                    std::shared_ptr<Keyboard> keyboard,

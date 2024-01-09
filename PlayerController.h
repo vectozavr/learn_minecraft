@@ -5,9 +5,10 @@
 #ifndef SHOOTER_PLAYERCONTROLLER_H
 #define SHOOTER_PLAYERCONTROLLER_H
 
+#include <io/Keyboard.h>
+#include <io/Mouse.h>
+
 #include "Player.h"
-#include "engine/io/Keyboard.h"
-#include "engine/io/Mouse.h"
 
 class PlayerController {
 private:

@@ -5,9 +5,10 @@
 #ifndef MINECRAFT_3DZAVR_CUBE_H
 #define MINECRAFT_3DZAVR_CUBE_H
 
-#include "engine/physics/RigidBody.h"
-#include "MinecraftConsts.h"
 #include <SFML/Graphics.hpp>
+#include <physics/RigidBody.h>
+
+#include "MinecraftConsts.h"
 
 class Cube : public RigidBody {
 public:

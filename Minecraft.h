@@ -5,9 +5,10 @@
 #ifndef MINECRAFT_MINECRAFT_H
 #define MINECRAFT_MINECRAFT_H
 
-#include "engine/Engine.h"
-#include "Player.h"
+#include <Engine.h>
+
 #include "PlayerController.h"
+#include "Player.h"
 #include "Map.h"
 
 class Minecraft : public Engine {
